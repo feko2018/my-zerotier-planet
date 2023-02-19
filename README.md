@@ -2,7 +2,7 @@
 - 下载
 ```
     yum install docker docker-compose -y
-    git clone https://github.com/feko2018/my-zerotier-planet
+    git clone https://github.com/feko2018/my-zerotier-planet.git
     cd my-zerotier-planet
 ```
 
