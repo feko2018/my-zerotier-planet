@@ -59,3 +59,8 @@ Win+S 搜索 服务
 执行zerotier-cli join 网络ID #这个网络ID在后台查看
 看到join ok字样就成功了
 ```
+
+- 安卓配置zerotier客户端
+
+
+下载:https://bash.lanzoul.com/iDGsq0o2kije 密码:32ar
