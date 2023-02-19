@@ -52,7 +52,7 @@ zerotier-cli join 网络ID #这个网络ID在后台查看
 ```
 首先去zerotier官网下载一个zerotier客户端
 或者https://bash.lanzoul.com/iAzeP0o24gvi 密码:4of6  记得解压再安装
-安装后将 planet 文件（000000xxxxx.moon重命名planet）覆盖粘贴到C:\Program Files (x86)\ZeroTier\One 中(这个目录是个隐藏目录，需要运允许查看隐藏目录才行,复制报错可以看这https://www.reneelab.com.cn/m/failed-to-enumerate-objects-in-the-container.html)
+安装后将 planet 文件（000000xxxxx.moon重命名planet）覆盖粘贴到C:\ProgramData\ZeroTier\One 中(这个目录是个隐藏目录，需要运允许查看隐藏目录才行)
 Win+S 搜索 服务
 找到ZeroTier One，并且重启服务
 使用管理员身份打开PowerShell
