@@ -30,16 +30,16 @@ MYADDR=2.2.2.2 #改成自己的服务器公网IP
 ![image](https://user-images.githubusercontent.com/38614242/219947023-a5fe2cc3-e395-4f82-a75b-68ed216e88dd.png)
 ![image](https://user-images.githubusercontent.com/38614242/219947090-b937f274-3b70-4b8a-86dd-510e643a5786.png)
 
-- 客户端下载planet/moon文件
+- 客户端下载planet和moon文件
 
 浏览器访问http://ip:8883 打开planet和moon文件下载页面（亦可在项目根目录的`./ztncui/etc/myfs/`里获取）。
 
-![image](https://user-images.githubusercontent.com/38614242/219947241-968261ed-6886-4ba9-9c58-a54581a01dfd.png)
+![image](https://user-images.githubusercontent.com/38614242/219952992-aec7b9e5-ecc3-44da-9326-bbec063f4e59.png)
 
 - centos7安装zerotier客户端
 ```
 curl -s https://install.zerotier.com/ | sudo bash
-/bin/cp  000000xxxxx.moon  /var/lib/zerotier-one/planet  # 这个是上一步下载的文件000000xxxxx.moon
+/bin/cp  planet  /var/lib/zerotier-one/planet  # 这个是上一步下载的文件planet
 systemctl  restart  zerotier-one
 zerotier-cli join 网络ID #这个网络ID在后台查看
 ```
