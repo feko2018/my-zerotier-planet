@@ -47,3 +47,13 @@ zerotier-cli join 网络ID #这个网络ID在后台查看
 
 - 管理zerotier客户端授权
 ![image](https://user-images.githubusercontent.com/38614242/219947575-85682df0-3fd9-4a87-bdee-c5fc20f57ce3.png)
+
+- Windows配置zerotier客户端
+首先去zerotier官网下载一个zerotier客户端
+或者https://bash.lanzoul.com/iAzeP0o24gvi 密码:4of6  记得解压再安装
+安装后将 planet 文件（000000xxxxx.moon重命名planet）覆盖粘贴到 C:\ProgramData\ZeroTier\One 中(这个目录是个隐藏目录，需要运允许查看隐藏目录才行)
+Win+S 搜索 服务
+找到ZeroTier One，并且重启服务
+使用管理员身份打开PowerShell
+执行zerotier-cli join 网络ID #这个网络ID在后台查看
+看到join ok字样就成功了
