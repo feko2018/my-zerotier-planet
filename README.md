@@ -30,7 +30,8 @@ MYADDR=2.2.2.2 #改成自己的服务器公网IP
 ![image](https://user-images.githubusercontent.com/38614242/219947023-a5fe2cc3-e395-4f82-a75b-68ed216e88dd.png)
 ![image](https://user-images.githubusercontent.com/38614242/219947090-b937f274-3b70-4b8a-86dd-510e643a5786.png)
 
-- 客户端下载planet/moon文件下载
+- 客户端下载planet/moon文件
+
 浏览器访问http://ip:8883 打开planet和moon文件下载页面（亦可在项目根目录的`./ztncui/etc/myfs/`里获取）。
 
 ![image](https://user-images.githubusercontent.com/38614242/219947241-968261ed-6886-4ba9-9c58-a54581a01dfd.png)
