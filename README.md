@@ -1,4 +1,4 @@
-原项目来自https://github.com/Jonnyan404/zerotier-planet 
+原项目https://github.com/Jonnyan404/zerotier-planet 
 - 下载
 ```
     yum install docker docker-compose -y
